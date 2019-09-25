@@ -1,0 +1,101 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+header {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-family: 'Georgia';
+  background:#ffffff;
+  border-color: #cccccc 
+}
+
+#demobox {
+    background-color: #4aaaa5;
+    padding: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+  }
+
+h2{
+    color: #4aaaa5;
+    text-align: left;
+
+}
+
+  #topnav {
+    float: right;
+    margin: 0;
+    right: 20px;
+    overflow:hidden;
+    text-align: right;
+  }
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #FFA500;
+}
+
+#middle {
+  float: left;
+  width: 33.3%;
+  color: #fff;
+  background: #333;
+}
+
+#full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  color: #333;
+  background: #E8E8E8;
+  border:#dddddd;
+}
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #dddddd;
+  color: black;
+  background: #ffffff;
+  width: 100%;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  height: 300px;
+  padding: 20px;
+  margin-left: 30px;
+  color: black;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+footer {
+  padding: 20px;
+  clear: both;
+  position: absolute;
+  background: #666666;
+  border-top: 8px #4aaaa5;
+  border-style: solid none;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;
+}
+
