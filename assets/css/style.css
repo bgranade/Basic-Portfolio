@@ -26,6 +26,8 @@ header {
     padding: 40px;
     margin-bottom: 0px;
     margin-top: 0px;
+    margin-left: 10px;
+    height: 100px;
     float: left;
   }
 
@@ -41,6 +43,9 @@ h2{
     right: 20px;
     overflow:hidden;
     text-align: right;
+  }
+  a:hover {
+    background-color: #4aaaa5;
   }
 
 section {
@@ -78,7 +83,119 @@ aside {
   border: 1px solid #eee;
 }
 
+/* Importing the Roboto font from Google Fonts. */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
 
+/* Set font of all elements to 'Roboto' */
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+/* Remove outline of all elements on focus */
+*:focus {
+	outline: 0;
+}
+
+h3 {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+  background: #E3F2FD;
+  width:960px;
+  float:center;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+
+img {
+    max-width:100%; 
+    height:auto;
+}
+#container2 {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .imgContainer{
+        width: 100%;
+        line-height: 0;
+        font-size: 0;
+    }
+
+}
+
+.image {
+   display:inline-block;
+    padding: 5px;
+    width: 33.33%;
+    @media (#{$tablet}){
+        width: 50%;
+    }
+    @media (#{$mobile}){
+        width: 100%;
+    }
+    img {
+        vertical-align:top;
+    }
+}
 footer {
   padding: 20px;
   clear: both;
@@ -90,6 +207,7 @@ footer {
   width: 100%;
   height: 4.5rem;
 }
+
 
 
 
