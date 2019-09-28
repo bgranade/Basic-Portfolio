@@ -199,7 +199,7 @@ img {
 footer {
   padding: 20px;
   clear: both;
-  position: absolute;
+  position: fixed;
   background: #666666;
   border-top: 8px #4aaaa5;
   border-style: solid none;
